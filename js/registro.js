@@ -48,12 +48,12 @@ form.addEventListener("submit", e=>{
 
 
     if(direccion.value.length <10){
-        warnings += `El nombre no es válido <br>`;
+        warnings += `La dirrección no es válido <br>`;
         entrar = true;
     }
 
     if(telf.value.length <10){
-        warnings += `El nombre no es válido <br>`;
+        warnings += `El teléfono no es válido <br>`;
         entrar = true;
     }
 
