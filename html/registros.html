@@ -5,39 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href="/css/disenoregistro.css">
-    <title>Registro</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+       <title>Registro</title>
 </head>
 <body>
-    <form class = "formulario" action="">
+    <form action="" method = "POST" id = "form">
+        <div class="form">
+            <h1>Registro</h1>
+            <div class = "grupo">
+                <input type = "text" name = "" id = "nombre" ><span class = "barra"></span>
+                <label for = "">Usuario</label>
+            </div>
 
-       <h1 class = "formulario_titulo">Crear una cuenta</h1>
+            <div class = "grupo">
+                <input type = "text" name = "" id = "nombre"><span class = "barra"></span>
+                <label for = "">Nombres</label>
+            </div>
 
-        <input type = "text" class = "formulario_input">
-        <label for = "" class = "formulario_label">Usuario</label>
+            <div class = "grupo">
+                <input type = "text" name = "" id = "nombre" ><span class = "barra"></span>
+                <label for = "">Apellidos</label>
+            </div>
 
-        <input type = "text" class = "formulario_input">
-        <label for = "" class = "formulario_label">Nombres</label>
+            <div class = "grupo">
+                <input type = "email" name = "" id = "nombre"><span class = "barra"></span>
+                <label for = "">Correo electrónico</label>
+            </div>
 
-        <input type = "text" class = "formulario_input">
-        <label for = "" class = "formulario_label">Apellidos</label>
+            <div class = "grupo">
+                <input type = "text" name = "" id = "nombre" ><span class = "barra"></span>
+                <label for = "">Dirección</label>
+            </div>
 
-        
-        <input type = "email" class = "formulario_input">
-        <label for = "" class = "formulario_label">Correo electrónico</label>
+            <div class = "grupo">
+                <input type = "text" name = "" id = "nombre" ><span class = "barra"></span>
+                <label for = "">Teléfono</label>
+            </div>
 
-        <input type = "text" class = "formulario_input">
-        <label for = "" class = "formulario_label">Dirección</label>
+            <div class = "grupo">
+                <input type = "password" name = "" id = "nombre" ><span class = "barra"></span>
+                <label for = "">Contraseña</label>
+            </div>
 
+            <button type = "submit">Registrase</button>
 
-        <input type = "text" class = "formulario_input">
-        <label for = "" class = "formulario_label">Teléfono</label>
+           
+        </div>
+    </form>
 
-
-        <input type = "password" class = "formulario_input">
-        <label for = "" class = "formulario_label">Contraseña</label>
-        
-        <input type =  "submit" class = "formulario_submit">
-
-   </form>
+   <script src = "/js/registro.js"></script>
 </body>
 </html>
