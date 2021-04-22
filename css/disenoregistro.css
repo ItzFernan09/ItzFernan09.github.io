@@ -35,7 +35,7 @@ h1{
 
 form {
     background: white;
-    padding: 40px 0;
+    padding: 60px 0;
     box-shadow: 0 0 6px rgba(255, 255,255, 0.8);
     border-radius: 10px;
 
@@ -43,14 +43,16 @@ form {
 
 .form{
     /*width: 100%;*/
-    width: 400px;
+    width: 500px;
     margin: auto;
     height: 570px;
+    padding: -100px;
 }
 
 form .grupo{
     position: relative;
     margin: 45px;
+    
 }
 
 input{
@@ -124,7 +126,7 @@ button {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border:none;
   display: block;
-  width: 80%;
+  width: 40%;
   margin: 10px auto;
   color:white;
   height: 40px;
@@ -145,4 +147,14 @@ button {
   margin: auto;
   color: #B06AB3;
   padding-top: 20px;
+}
+
+p{
+  text-align: center;
+  
+}
+.link{
+  text-decoration: none;
+  color: #2196f3;
+  font-weight: 120;
 }
