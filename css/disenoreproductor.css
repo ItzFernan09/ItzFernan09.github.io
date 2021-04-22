@@ -1,1 +1,45 @@
+#reproductor{
+    width: 820px;
+    margin: 40px auto;
+    padding: 10px 5px 5px 5px;
+    background: rgb(161, 216, 233);
+    border: 1px solid lightslategray;
+    border-radius: 10px;
+}
 
+#reproducir, #silenciar{
+    padding: 5px 15px;
+    width: -140px;
+    border: 1px solid black;
+    background: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+nav{
+    margin: 3px 3px;
+}
+
+#botones{
+    float: left;
+    width: 145px;
+    height: 40px;
+}
+
+#barra{
+    float: left;
+    width: 400px;
+    height: 16px;
+    padding: 2px;
+    margin: 2px 5px;
+    border: 1px solid rgb(0, 0, 0);
+    background: lightskyblue;
+}
+
+#progreso{
+    width: 0px;
+    height: 16px;
+    background-color: rgb(7, 7, 7);
+}
+.recuperar{
+    clear: both;
+}
