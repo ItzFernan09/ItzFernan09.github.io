@@ -3,7 +3,6 @@ if (document.readyState == 'loading') {
 } else {
     inicio()
 }
-
 function inicio() {
     var remover = document.getElementsByClassName('btn-danger')
     for (var i = 0; i < remover.length; i++) {
@@ -51,7 +50,7 @@ function quantityChanged(event) {
 
 function addToCartClicked(event) {
     var boton = event.target
-    var shopItem = button.parentElement.parentElement
+    var shopItem = boton.parentElement.parentElement
     var titulo = shopItem.getElementsByClassName('shop-item-title')[0].innerText
     var precio = shopItem.getElementsByClassName('shop-item-price')[0].innerText
     var imageSrc = shopItem.getElementsByClassName('shop-item-image')[0].src
@@ -95,8 +94,8 @@ function Total() {
         var precioElemento = cartRow.getElementsByClassName('cart-price')[0]
         var quantityElement = cartRow.getElementsByClassName('cart-quantity-input')[0]
         var precio = parseFloat(precioElemento.innerText.replace('$', ''))
-        var quantity = quantityElement.value
-        total = total + (precio * quantity)
+        var cantidad = quantityElement.value
+        total = total + (precio * cantidad)
     }
     total = Math.round(total * 100) / 100
     document.getElementsByClassName('cart-total-price')[0].innerText = '$' + total
