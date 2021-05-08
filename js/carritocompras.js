@@ -1,10 +1,10 @@
 if (document.readyState == 'loading') {
-    document.addEventListener('DOMContentLoaded', inicio)
+    document.addEventListener('DOMContentLoaded', ready)
 } else {
-    inicio()
+    ready()
 }
 
-function inicio() {
+function ready() {
     var remover = document.getElementsByClassName('btn-danger')
     for (var i = 0; i < remover.length; i++) {
         var button = remover[i]
