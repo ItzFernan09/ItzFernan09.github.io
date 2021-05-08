@@ -1,5 +1,5 @@
 if (document.readyState == 'loading') {
-    document.addEventListener('DOMContentLoaded', ready)
+    document.addEventListener('DOMContentLoaded', inicio)
 } else {
     inicio()
 }
